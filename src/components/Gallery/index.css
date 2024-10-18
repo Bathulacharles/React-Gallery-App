@@ -1,0 +1,35 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery-container {
+  width: 85%;
+  max-width: 1100px;
+  margin-top: 34px;
+  margin-bottom: 34px;
+  padding: 0px;
+}
+
+.selected-image {
+  border-radius: 18px;
+}
+
+.selected-image {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #1e293b;
+}
+
+.description {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #64748b;
+}
+
+.thumbnail-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0px;
+}
